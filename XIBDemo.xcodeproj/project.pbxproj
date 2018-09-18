@@ -17,6 +17,9 @@
 		EAEC204E2150DEBD0089DC37 /* XIBDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEC204D2150DEBD0089DC37 /* XIBDemoUITests.m */; };
 		EAEC205D2150DED50089DC37 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEC205C2150DED50089DC37 /* Person.m */; };
 		EAEC205F2150DF000089DC37 /* Person.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAEC205E2150DF000089DC37 /* Person.xib */; };
+		EAEC20622150EF7F0089DC37 /* SuperMan.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEC20612150EF7F0089DC37 /* SuperMan.m */; };
+		EAEC20642150EF8A0089DC37 /* SuperMan.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAEC20632150EF8A0089DC37 /* SuperMan.xib */; };
+		EAEC20672150F4600089DC37 /* AAAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEC20662150F4600089DC37 /* AAAViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +59,11 @@
 		EAEC205B2150DED50089DC37 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		EAEC205C2150DED50089DC37 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		EAEC205E2150DF000089DC37 /* Person.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Person.xib; sourceTree = "<group>"; };
+		EAEC20602150EF7F0089DC37 /* SuperMan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperMan.h; sourceTree = "<group>"; };
+		EAEC20612150EF7F0089DC37 /* SuperMan.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperMan.m; sourceTree = "<group>"; };
+		EAEC20632150EF8A0089DC37 /* SuperMan.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SuperMan.xib; sourceTree = "<group>"; };
+		EAEC20652150F4600089DC37 /* AAAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAAViewController.h; sourceTree = "<group>"; };
+		EAEC20662150F4600089DC37 /* AAAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAAViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,9 +118,14 @@
 				EAEC202A2150DEBD0089DC37 /* AppDelegate.m */,
 				EAEC202C2150DEBD0089DC37 /* ViewController.h */,
 				EAEC202D2150DEBD0089DC37 /* ViewController.m */,
+				EAEC20652150F4600089DC37 /* AAAViewController.h */,
+				EAEC20662150F4600089DC37 /* AAAViewController.m */,
 				EAEC205B2150DED50089DC37 /* Person.h */,
 				EAEC205C2150DED50089DC37 /* Person.m */,
 				EAEC205E2150DF000089DC37 /* Person.xib */,
+				EAEC20602150EF7F0089DC37 /* SuperMan.h */,
+				EAEC20612150EF7F0089DC37 /* SuperMan.m */,
+				EAEC20632150EF8A0089DC37 /* SuperMan.xib */,
 				EAEC202F2150DEBD0089DC37 /* Main.storyboard */,
 				EAEC20322150DEBD0089DC37 /* Assets.xcassets */,
 				EAEC20342150DEBD0089DC37 /* LaunchScreen.storyboard */,
@@ -247,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAEC20362150DEBD0089DC37 /* LaunchScreen.storyboard in Resources */,
+				EAEC20642150EF8A0089DC37 /* SuperMan.xib in Resources */,
 				EAEC20332150DEBD0089DC37 /* Assets.xcassets in Resources */,
 				EAEC205F2150DF000089DC37 /* Person.xib in Resources */,
 				EAEC20312150DEBD0089DC37 /* Main.storyboard in Resources */,
@@ -274,9 +288,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAEC20622150EF7F0089DC37 /* SuperMan.m in Sources */,
 				EAEC202E2150DEBD0089DC37 /* ViewController.m in Sources */,
 				EAEC20392150DEBD0089DC37 /* main.m in Sources */,
 				EAEC205D2150DED50089DC37 /* Person.m in Sources */,
+				EAEC20672150F4600089DC37 /* AAAViewController.m in Sources */,
 				EAEC202B2150DEBD0089DC37 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *textLabel;
 
+@property (nonatomic, strong) UILabel *telLabel;
 @end
 

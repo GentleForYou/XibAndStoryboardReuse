@@ -17,9 +17,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    Person *person = [[Person alloc] initWithFrame:CGRectMake(0, 64, 375, 100)];
-    [self.view addSubview:person];
+    _telLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 64, 375, 100)];
+    _telLabel.text = @"456";
+    [self.view addSubview:_telLabel];
+    
+    
+//    Person *person = [[Person alloc] initWithFrame:CGRectMake(0, 64, 375, 100)];
+//    [self.view addSubview:person];
 }
+
 
 
 - (void)didReceiveMemoryWarning {
