@@ -20,6 +20,8 @@
     if (self) {
         [self createSubView];
         NSLog(@"%@",self.name.text);
+        
+        NSLog(@"--%@",self.str);
     }
     return self;
 }

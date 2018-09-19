@@ -18,7 +18,7 @@
     [super viewDidLoad];
     NSLog(@"+++%@",self.textLabel.text);
     
-
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

@@ -17,6 +17,7 @@
 - (instancetype)initWithCoder:(NSCoder *)coder {
     self = [super initWithCoder:coder];
     if (self) {
+        self.str = @"456";
         [self createView];
     }
     return self;

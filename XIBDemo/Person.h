@@ -11,4 +11,5 @@
 @interface Person : UIView
 @property (weak, nonatomic) IBOutlet UILabel *name;
 
+@property (nonatomic, strong) NSString *str;
 @end
